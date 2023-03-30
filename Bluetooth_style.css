@@ -14,6 +14,7 @@
 body{
     margin: 0;
     padding: 0;
+    Overflow-x: hidden;
     background-color: #FAD961;
     background-image: url(./Image.png);
     background-size: 740px 380px;
@@ -159,6 +160,8 @@ body{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    bottom: 0;
+    position: absolute;
 }
 .one{
     width: 280px;
@@ -174,11 +177,11 @@ body{
 }
 
 .span{
-    width: 450px;
+    width: 470px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin-left: 160px;
+    margin-left: 170px;
     margin-top: 60px;
     font-weight: 700;
     font-family: Popins;
