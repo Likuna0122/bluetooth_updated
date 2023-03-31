@@ -193,3 +193,11 @@ body{
 .five{
     color: white;
 }
+.elips{
+    position: absolute;
+    width: 730px;
+    height: 350px;
+    left: 680px;
+    top: 250px;
+}
+    
